@@ -46,14 +46,16 @@ lib/
 ### 运行项目
 
 1. 克隆或下载本项目到本地。
-2. 在项目根目录下，运行以下命令获取依赖：
+2. 在项目根目录下，运行以下命令获取依赖（参考 `package.json` 的脚本）：
    ```bash
-   flutter pub get
+   npm run pub
    ```
-3. 启动应用：
+3. 启动应用（参考 `package.json` 的脚本；默认启动 Web/Chrome）：
    ```bash
-   flutter run
+   npm run start
    ```
+
+4. 热重载：在编辑器中按 `Shift + R`。
 
 ---
 

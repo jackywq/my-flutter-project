@@ -1,0 +1,18 @@
+{
+  "name": "flutter_app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "flutter run -d chrome --web-port=5500",
+    "start:android": "flutter run -d android",
+    "start:ios": "flutter run -d ios",
+    "pub": "flutter pub get",
+    "pub:upgrade": "flutter pub upgrade",
+    "build:web": "flutter build web --release --web-renderer canvaskit",
+    "build:apk": "flutter build apk --release",
+    "build:aab": "flutter build appbundle --release",
+    "clean": "flutter clean",
+    "gen": "flutter pub run build_runner build",
+    "gen:force": "flutter pub run build_runner build --delete-conflicting-outputs"
+  }
+}
